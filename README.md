@@ -35,7 +35,9 @@ By achieving a loss of $10^{-3}$, the model proves that the Neural Network has s
 
 ### Physical Significance: Shock Wave Capture
 The resulting contour plot shows a crisp transition at $x=0$.
+
 **#** As time $t$ increases, the positive and negative velocity streams collide.
+
 **#** The network discovered the shock wave without being shown any simulation data. It learned the shock purely by trying to minimize the physics residual $f$. This demonstrates that the model understands the balance between **nonlinear advection** and **viscous diffusion**.
 
 ## 6. Conclusion
